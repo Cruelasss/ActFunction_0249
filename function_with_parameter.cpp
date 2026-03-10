@@ -11,3 +11,9 @@ void input(){
     cin >> lebar;
 }
 
+
+int luaspersegi (int a, int b)
+{
+    return a * b;
+}
+
