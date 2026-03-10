@@ -22,3 +22,14 @@ int kelilingpersegi (int a, int b)
     return 2 * (a + b);
 }
 
+void output ()
+{
+    cout << "Hasilnya  : " << luaspersegi(panjang, lebar) << endl;
+}
+
+int main()
+{
+    input();
+    output();
+    cout << "Kelilingnya : " << kelilingpersegi(panjang, lebar) << endl;
+}
