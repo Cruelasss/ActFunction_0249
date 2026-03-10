@@ -11,6 +11,7 @@ void input ()
     cin >> lebar;
 }
 
+
 int luaspersegi ()
 {
     return panjang * lebar;
